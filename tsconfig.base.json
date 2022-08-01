@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@microservices-nestjs/contracts": ["libs/contracts/src/index.ts"],
+      "@microservices-nestjs/interfaces": ["libs/interfaces/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

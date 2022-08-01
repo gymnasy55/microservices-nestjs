@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'account',
+  displayName: 'contracts',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -12,6 +12,5 @@ export default {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/account',
-  testTimeout: 20000,
+  coverageDirectory: '../../coverage/libs/contracts',
 };
