@@ -20,7 +20,7 @@
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.4.0",
     "nestjs-rmq": "^2.7.2",
     "passport": "^0.6.0",
